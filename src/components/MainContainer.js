@@ -3,7 +3,7 @@ import VideoContainer from "./VideoContainer";
 
 const MainContainer = () => {
   return (
-    <div>
+    <div className="flex-1 overflow-hidden">
       <ButtonList />
       <VideoContainer />
     </div>
