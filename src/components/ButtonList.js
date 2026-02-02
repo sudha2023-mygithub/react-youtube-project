@@ -19,8 +19,8 @@ const ButtonList = () => {
   return (
     <div className="w-full overflow-x-scroll scrollbar-hide">
       <div className="flex flex-nowrap">
-        {List.map((text) => {
-          return <Button name={text} />;
+        {List.map((text, index) => {
+          return <Button key={index} name={text} />;
         })}
       </div>
     </div>
