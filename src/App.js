@@ -1,9 +1,23 @@
 import "./App.css";
+import Head from "./components/Head.js";
+import Body from "./components/Body.js";
 
 function App() {
   return (
     <div>
-      <h1 className="text-red-900 font-bold">Hello Youtube Guys</h1>
+      <Head />
+      <Body />
+
+      {/**
+       * Head
+       * Body
+       *   Sidebar
+       *     Menu Items
+       *   Main Container
+       *     ButtonList
+       *     VideoContainer
+       *        Video Card
+       */}
     </div>
   );
 }
